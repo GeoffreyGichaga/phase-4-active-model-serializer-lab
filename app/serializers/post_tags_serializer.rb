@@ -1,4 +1,4 @@
 class PostTagsSerializer < ActiveModel::Serializer
-  attributes :id,:name
-  belongs_to :posts
+  attributes :name
+  belongs_to :post
 end
